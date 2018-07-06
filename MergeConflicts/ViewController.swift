@@ -20,9 +20,17 @@ class ViewController: UIViewController {
         print("This is a conflict")
     }
     
-    func thisGitStuffIsAwesome() -> Bool {
+    func newFunc() -> Int {
+        return 0
+    }
+    
+    func gitIsAwesome() -> Bool {
+        print("git is awesome: \(true)")
         return true
     }
-
+    
+    func hereIsANewFunction() -> Bool {
+        return false
+    }
 }
 
