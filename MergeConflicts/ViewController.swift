@@ -20,8 +20,17 @@ class ViewController: UIViewController {
         print("This is a conflict")
     }
     
-    func thisGitStuffIsAwesome() -> Bool {
+    func awesomeGit() -> Bool {
+        return !false
+    }
+    
+    func justinWasHere() -> Bool {
         return true
+    }
+    
+    func stayAwayFromGoogleMaps() {
+        
+        
     }
 
 }
