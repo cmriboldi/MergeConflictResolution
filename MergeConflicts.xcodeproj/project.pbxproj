@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E9B750420F019B800E4480D /* TheBestFileEver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B750320F019B800E4480D /* TheBestFileEver.swift */; };
 		5EBE0CFB20EFE61400129B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE0CFA20EFE61400129B4D /* AppDelegate.swift */; };
 		5EBE0CFD20EFE61400129B4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE0CFC20EFE61400129B4D /* ViewController.swift */; };
 		5EBE0D0020EFE61400129B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE0CFE20EFE61400129B4D /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E9B750320F019B800E4480D /* TheBestFileEver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBestFileEver.swift; sourceTree = "<group>"; };
 		5EBE0CF720EFE61400129B4D /* MergeConflicts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeConflicts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBE0CFA20EFE61400129B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EBE0CFC20EFE61400129B4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				5EBE0CFA20EFE61400129B4D /* AppDelegate.swift */,
 				5EBE0CFC20EFE61400129B4D /* ViewController.swift */,
+				5E9B750320F019B800E4480D /* TheBestFileEver.swift */,
 				5EBE0CFE20EFE61400129B4D /* Main.storyboard */,
 				5EBE0D0120EFE61600129B4D /* Assets.xcassets */,
 				5EBE0D0320EFE61600129B4D /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBE0CFD20EFE61400129B4D /* ViewController.swift in Sources */,
+				5E9B750420F019B800E4480D /* TheBestFileEver.swift in Sources */,
 				5EBE0CFB20EFE61400129B4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
