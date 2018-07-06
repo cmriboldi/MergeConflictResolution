@@ -33,5 +33,12 @@ class ViewController: UIViewController {
         
     }
 
+    func newFunc() -> Int {
+        return 0
+    }
+    
+    func hereIsANewFunction() -> Bool {
+        return false
+    }
 }
 
