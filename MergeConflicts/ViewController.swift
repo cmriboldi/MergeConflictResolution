@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         print("This is a conflict")
     }
-
+    
+    func thisGitStuffIsAwesome() -> Bool {
+        return true
+    }
 
 }
 
