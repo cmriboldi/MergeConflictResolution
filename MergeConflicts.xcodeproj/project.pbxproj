@@ -14,6 +14,7 @@
 		5EBE0D0020EFE61400129B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE0CFE20EFE61400129B4D /* Main.storyboard */; };
 		5EBE0D0220EFE61600129B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE0D0120EFE61600129B4D /* Assets.xcassets */; };
 		5EBE0D0520EFE61600129B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE0D0320EFE61600129B4D /* LaunchScreen.storyboard */; };
+		7EFC781C20F55E560096238A /* RoomWithAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC781B20F55E560096238A /* RoomWithAViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		5EBE0D0620EFE61600129B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EBE0D0B20EFE61600129B4D /* MergeConflictsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeConflictsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBE0D1620EFE61600129B4D /* MergeConflictsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeConflictsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFC781B20F55E560096238A /* RoomWithAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomWithAViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,16 +95,25 @@
 		5EBE0CF920EFE61400129B4D /* MergeConflicts */ = {
 			isa = PBXGroup;
 			children = (
+				7EFC781A20F55DFC0096238A /* ViewControllersWithAnAttitud */,
 				5EBE0CFA20EFE61400129B4D /* AppDelegate.swift */,
-				5EBE0CFC20EFE61400129B4D /* ViewController.swift */,
 				5E9B750320F019B800E4480D /* TheBestFileEver.swift */,
 				5EBE0CFE20EFE61400129B4D /* Main.storyboard */,
 				5EBE0D0120EFE61600129B4D /* Assets.xcassets */,
 				5EBE0D0320EFE61600129B4D /* LaunchScreen.storyboard */,
 				5EBE0D0620EFE61600129B4D /* Info.plist */,
-				5E563C6620F55640008D92F3 /* TheBestViewController.swift */,
 			);
 			path = MergeConflicts;
+			sourceTree = "<group>";
+		};
+		7EFC781A20F55DFC0096238A /* ViewControllersWithAnAttitud */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE0CFC20EFE61400129B4D /* ViewController.swift */,
+				5E563C6620F55640008D92F3 /* TheBestViewController.swift */,
+				7EFC781B20F55E560096238A /* RoomWithAViewController.swift */,
+			);
+			path = ViewControllersWithAnAttitud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				5EBE0CFD20EFE61400129B4D /* ViewController.swift in Sources */,
 				5E9B750420F019B800E4480D /* TheBestFileEver.swift in Sources */,
 				5EBE0CFB20EFE61400129B4D /* AppDelegate.swift in Sources */,
+				7EFC781C20F55E560096238A /* RoomWithAViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
