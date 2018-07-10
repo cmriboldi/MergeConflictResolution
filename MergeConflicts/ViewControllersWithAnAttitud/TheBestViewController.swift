@@ -21,8 +21,8 @@ class TheBestViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func theMostImportantFunction() -> Bool {
-        return true
+    func theLeastImportantFunction() -> Date {
+        return Date()
     }
 
 }
